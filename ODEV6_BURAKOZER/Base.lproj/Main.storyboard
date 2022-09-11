@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pMd-dh-p5X">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Anasayfa-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ODEV6_BURAKOZER" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Anasayfa" image="anasayfaIcon" id="idL-AB-VS1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1229" y="-668"/>
+        </scene>
+        <!--Sepetim-->
+        <scene sceneID="63a-Ev-g0A">
+            <objects>
+                <viewController id="OIT-cl-SPU" customClass="SepetimVC" customModule="ODEV6_BURAKOZER" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e9c-fw-Z6F">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kategorilerIcon" translatesAutoresizingMaskIntoConstraints="NO" id="2Zs-f7-u5U">
+                                <rect key="frame" x="58" y="323" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="v2x-z2-DEs"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Sepetim" image="cart.fill" catalog="system" id="tDw-2X-FAK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xAy-NV-Oem" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1229" y="671"/>
+        </scene>
+        <!--KategorilerVC-->
+        <scene sceneID="EAc-8q-vk9">
+            <objects>
+                <viewController id="DYK-UF-3Uu" customClass="KategorilerVC" customModule="ODEV6_BURAKOZER" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oTf-yC-QXJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="vHy-lL-8eb">
+                                <rect key="frame" x="20" y="116" width="374" height="37"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Uv-Up-fmA">
+                                        <rect key="frame" x="0.0" y="0.0" width="178.5" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="wSo-rP-3sk"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Tüm Futbol Topları">
+                                            <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                                            <color key="baseForegroundColor" red="0.5424571037" green="0.56035262350000004" blue="0.63977265360000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="baseBackgroundColor" red="0.92515903710000003" green="0.94551581139999996" blue="0.95643454790000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQv-Hb-vVa">
+                                        <rect key="frame" x="195.5" y="0.0" width="178.5" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="bQc-ib-Fom"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Çocuk Futbol Topları">
+                                            <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                                            <color key="baseForegroundColor" red="0.51954650879999997" green="0.56021410230000002" blue="0.65529268979999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="baseBackgroundColor" red="0.92959612609999998" green="0.94488817449999996" blue="0.95686465499999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kQv-Hb-vVa" firstAttribute="leading" secondItem="6Uv-Up-fmA" secondAttribute="trailing" constant="17" id="5jQ-LF-g8M"/>
+                                    <constraint firstAttribute="trailing" secondItem="kQv-Hb-vVa" secondAttribute="trailing" id="6oq-rj-1vN"/>
+                                    <constraint firstAttribute="bottom" secondItem="6Uv-Up-fmA" secondAttribute="bottom" id="OBb-el-nP3"/>
+                                    <constraint firstItem="6Uv-Up-fmA" firstAttribute="top" secondItem="vHy-lL-8eb" secondAttribute="top" id="Q18-QA-eAg"/>
+                                    <constraint firstItem="kQv-Hb-vVa" firstAttribute="leading" secondItem="6Uv-Up-fmA" secondAttribute="trailing" constant="17" id="Y4K-Qh-qgg"/>
+                                    <constraint firstAttribute="bottom" secondItem="kQv-Hb-vVa" secondAttribute="bottom" id="Zsj-c5-2AI"/>
+                                    <constraint firstItem="6Uv-Up-fmA" firstAttribute="leading" secondItem="vHy-lL-8eb" secondAttribute="leading" id="i5e-aF-QWg"/>
+                                    <constraint firstItem="kQv-Hb-vVa" firstAttribute="top" secondItem="vHy-lL-8eb" secondAttribute="top" id="k1W-cn-eXz"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="B05-AN-dhk">
+                                <rect key="frame" x="10" y="177" width="394" height="38"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaz-g3-2R5">
+                                        <rect key="frame" x="0.0" y="0.0" width="191.5" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="adH-9c-eFV"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="  Akıllı Sıralama">
+                                            <imageReference key="image" image="arrow.up.arrow.down" catalog="system" symbolScale="small"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" weight="regular"/>
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                            <color key="baseForegroundColor" red="0.001372053288" green="0.0" blue="0.14747193459999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHD-zu-OtU">
+                                        <rect key="frame" x="202.5" y="0.0" width="191.5" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="TaM-58-3du"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="filtreleIcon" title="  Filtrele" titleAlignment="center">
+                                            <backgroundConfiguration key="background"/>
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                            <color key="baseForegroundColor" red="0.0014985926679999999" green="0.00011043638369999999" blue="0.141187638" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="KBX-Hz-JST">
+                                <rect key="frame" x="0.0" y="225" width="414" height="588"/>
+                                <color key="backgroundColor" red="0.92845708130000004" green="0.92845708130000004" blue="0.92845708130000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kOR-Qi-QsT">
+                                    <size key="itemSize" width="180" height="350"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="urunHucre" id="mAI-bK-EtI" customClass="UrunlerCollectionViewCell" customModule="ODEV6_BURAKOZER" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="350"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lix-G1-tXF">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="350"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top1" translatesAutoresizingMaskIntoConstraints="NO" id="yjI-qi-AhN">
+                                                    <rect key="frame" x="37" y="5" width="106.5" height="175"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="175" id="FJq-tN-hDe"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADIDAS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kos-Tb-Kbb">
+                                                    <rect key="frame" x="8" y="187" width="74.5" height="24"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="textColor" red="0.13436010479999999" green="0.17660790679999999" blue="0.2445806861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FUTBOL TOPU - ADİDAS ŞAMPİYONLAR LİGİ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pk5-qi-d5E">
+                                                    <rect key="frame" x="8" y="219" width="172" height="36"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="puan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3j-W8-snE">
+                                                    <rect key="frame" x="33" y="270" width="32" height="14.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₺120" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prZ-Op-EwX">
+                                                    <rect key="frame" x="8" y="297" width="48" height="24"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="textColor" red="0.14205884930000001" green="0.1751724184" blue="0.23922351" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="star.fill" catalog="system" id="5b7-0Z-i7i">
+                                                    <rect key="frame" x="8" y="269.5" width="15" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="tintColor" red="0.99798589940000004" green="0.77704256770000002" blue="0.16092610360000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="F3j-W8-snE" secondAttribute="trailing" constant="115" id="2P6-D6-kbE"/>
+                                                <constraint firstItem="F3j-W8-snE" firstAttribute="top" secondItem="pk5-qi-d5E" secondAttribute="bottom" constant="15" id="2ja-QK-jnt"/>
+                                                <constraint firstItem="Kos-Tb-Kbb" firstAttribute="leading" secondItem="lix-G1-tXF" secondAttribute="leading" constant="8" id="33B-iS-c23"/>
+                                                <constraint firstItem="pk5-qi-d5E" firstAttribute="top" secondItem="Kos-Tb-Kbb" secondAttribute="bottom" constant="8" id="35n-ub-1Gy"/>
+                                                <constraint firstItem="F3j-W8-snE" firstAttribute="leading" secondItem="5b7-0Z-i7i" secondAttribute="trailing" constant="10" id="7F2-Wa-1fd"/>
+                                                <constraint firstItem="yjI-qi-AhN" firstAttribute="top" secondItem="lix-G1-tXF" secondAttribute="top" constant="5" id="Cq5-t9-Qoz"/>
+                                                <constraint firstItem="pk5-qi-d5E" firstAttribute="leading" secondItem="lix-G1-tXF" secondAttribute="leading" constant="8" id="GOg-eb-uDo"/>
+                                                <constraint firstItem="prZ-Op-EwX" firstAttribute="top" secondItem="5b7-0Z-i7i" secondAttribute="bottom" constant="12" id="UL9-B7-RAF"/>
+                                                <constraint firstItem="Kos-Tb-Kbb" firstAttribute="top" secondItem="yjI-qi-AhN" secondAttribute="bottom" constant="7" id="ctV-kM-hCj"/>
+                                                <constraint firstItem="yjI-qi-AhN" firstAttribute="centerX" secondItem="lix-G1-tXF" secondAttribute="centerX" id="q2C-IL-bpe"/>
+                                                <constraint firstItem="prZ-Op-EwX" firstAttribute="leading" secondItem="lix-G1-tXF" secondAttribute="leading" constant="8" id="tl6-IM-jEq"/>
+                                                <constraint firstAttribute="trailing" secondItem="Kos-Tb-Kbb" secondAttribute="trailing" constant="97.5" id="uGT-Nv-XSv"/>
+                                                <constraint firstAttribute="trailing" secondItem="pk5-qi-d5E" secondAttribute="trailing" id="ui1-Q5-5Y0"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="urunAciklamaLabel" destination="pk5-qi-d5E" id="Kd1-x7-dpi"/>
+                                            <outlet property="urunFiyatLabel" destination="prZ-Op-EwX" id="1Xf-ji-JPV"/>
+                                            <outlet property="urunImageView" destination="yjI-qi-AhN" id="lfg-Ee-Nsu"/>
+                                            <outlet property="urunMarkaLabel" destination="Kos-Tb-Kbb" id="KO6-zb-3g3"/>
+                                            <outlet property="urunPuanLabel" destination="F3j-W8-snE" id="YaU-1z-oRf"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dg9-qt-5S7"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="dg9-qt-5S7" firstAttribute="bottom" secondItem="KBX-Hz-JST" secondAttribute="bottom" id="DeW-DR-TWn"/>
+                            <constraint firstItem="dg9-qt-5S7" firstAttribute="trailing" secondItem="vHy-lL-8eb" secondAttribute="trailing" constant="20" id="Ery-dc-iyP"/>
+                            <constraint firstItem="vHy-lL-8eb" firstAttribute="leading" secondItem="dg9-qt-5S7" secondAttribute="leading" constant="20" id="MGq-Iq-dXj"/>
+                            <constraint firstItem="vHy-lL-8eb" firstAttribute="top" secondItem="dg9-qt-5S7" secondAttribute="top" constant="28" id="Oae-fK-Rh8"/>
+                            <constraint firstItem="B05-AN-dhk" firstAttribute="leading" secondItem="dg9-qt-5S7" secondAttribute="leading" constant="10" id="RaY-w7-qgX"/>
+                            <constraint firstItem="KBX-Hz-JST" firstAttribute="leading" secondItem="dg9-qt-5S7" secondAttribute="leading" id="ScN-fx-z7w"/>
+                            <constraint firstItem="B05-AN-dhk" firstAttribute="top" secondItem="vHy-lL-8eb" secondAttribute="bottom" constant="24" id="VoA-qg-X0v"/>
+                            <constraint firstItem="KBX-Hz-JST" firstAttribute="top" secondItem="B05-AN-dhk" secondAttribute="bottom" constant="10" id="qwG-ek-Xym"/>
+                            <constraint firstItem="dg9-qt-5S7" firstAttribute="trailing" secondItem="B05-AN-dhk" secondAttribute="trailing" constant="10" id="xSE-ag-auH"/>
+                            <constraint firstItem="dg9-qt-5S7" firstAttribute="trailing" secondItem="KBX-Hz-JST" secondAttribute="trailing" id="yJq-IZ-JzP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gh2-RB-deb"/>
+                    <connections>
+                        <outlet property="akilliSiralamaButton" destination="gaz-g3-2R5" id="6lx-Xv-Ws8"/>
+                        <outlet property="filtreleButton" destination="tHD-zu-OtU" id="dNy-oo-Znz"/>
+                        <outlet property="urunlerCollectionView" destination="KBX-Hz-JST" id="kc4-ny-A8x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QbZ-2U-qex" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2139.130434782609" y="0.6696428571428571"/>
+        </scene>
+        <!--Hesabım-->
+        <scene sceneID="vi6-na-xeQ">
+            <objects>
+                <viewController id="DdR-Iy-sNg" customClass="HesabimVC" customModule="ODEV6_BURAKOZER" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i5a-fV-It6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Mdy-Jd-z8T"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hesabım" image="hesabimIcon" id="n4Z-2J-Cir"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8mZ-Y9-83h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433" y="834"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="QrQ-4z-aM8">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="pMd-dh-p5X" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="k2U-xq-mJp">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <tabBarAppearance key="standardAppearance"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="kc0-x9-fql"/>
+                        <segue destination="UKa-4k-ioU" kind="relationship" relationship="viewControllers" id="0MK-HW-zHY"/>
+                        <segue destination="OIT-cl-SPU" kind="relationship" relationship="viewControllers" id="xY9-4P-Gpc"/>
+                        <segue destination="DdR-Iy-sNg" kind="relationship" relationship="viewControllers" id="6aX-dY-kcx"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J4Y-6B-74g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="83.705357142857139"/>
+        </scene>
+        <!--Kategoriler-->
+        <scene sceneID="HkG-U1-zYw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UKa-4k-ioU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Kategoriler" image="kategorilerIcon" id="MGa-Aw-c5c">
+                        <color key="badgeColor" systemColor="tintColor"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SQ6-AJ-Wt1">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="DYK-UF-3Uu" kind="relationship" relationship="rootViewController" id="Fcn-G5-6iI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kPn-dc-CtS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1228.985507246377" y="0.6696428571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="anasayfaIcon" width="24" height="24"/>
+        <image name="arrow.up.arrow.down" catalog="system" width="128" height="98"/>
+        <image name="cart.fill" catalog="system" width="128" height="102"/>
+        <image name="filtreleIcon" width="18" height="18"/>
+        <image name="hesabimIcon" width="40" height="40"/>
+        <image name="kategorilerIcon" width="24" height="24"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <image name="top1" width="106.5" height="106.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
